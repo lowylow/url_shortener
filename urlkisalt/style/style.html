@@ -1,0 +1,56 @@
+<?php
+  session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> PokeWake </title>
+
+    <link href="style/materialize.css" rel="stylesheet">
+
+    <style> /* Main Page Custom */
+        *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          overflow: hidden;
+        }
+  
+        body{
+          zoom: 150%;
+          transform-origin: 0 0;
+          width: 100%;
+          height: 100vh;
+          background: linear-gradient(rgb(47, 47, 47), rgb(34, 34, 34));
+        }
+
+        .error-text{
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          text-align: center;
+          color: red;
+          font-size: 04vh;
+          font-family: Roboto;
+        }
+        .success-text{
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          text-align: center;
+          color: green;
+          font-size: 04vh;
+          font-family: Roboto;
+        }
+
+      </style>  
+</head>
+<body>
+  <script defer src="style/materialize.js"></script>
+</body>
+
+</html>
